@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* *{
+    color: red;
+} */
+
+/* .fourth{
+    color: red;
+    background-color: aqua;
+    font-style: italic;
+}
+
+#first{
+    background-color: blueviolet;
+}
+
+form .form-text{
+    color: orange;
+}
+
+form .form-text .sp1{
+    color: red;
+}
+
+.bir{
+    background-color: burlywood;
+}
+
+a{
+    background-color: red;
+    color: #fff;
+    padding: 12px 60px;
+    text-decoration: none;
+    border-radius: 5px;
+} */
+
+/* h1,p{
+    color: red;
+} */
+
+/* li:nth-child(odd){
+    color: red;
+} */
+
+.register{
+    border: 2px solid orange;
+    background-color: transparent;
+    padding: 13px 60px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.register:hover{
+    background-color: orange;
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+
+img{
+    transition: .6s;
+    clip-path: polygon(0 25%, 100% 1%, 100% 77%, 0% 100%);
+}
+
+img:hover{
+    filter: drop-shadow(4px 8px 11px black) blur(2px);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+::selection{
+    background-color: orange;
+    color: #fff;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: orange;
+    border-radius: 10px;
+}
+
+/* .first{
+    text-align: center;
+    background-color: burlywood;
+    padding: 30px 0;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.second{
+ 
+    width: 40%;
+    margin: 30px auto 0;
+    text-align: center;
+    background-color: rgb(206, 123, 14);
+    padding: 30px 0;
+} */
+
+/* 
+#First{
+    text-align: center;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8&w=1000&q=80);
+}
+
+
+#Second{
+    text-align: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://s3.envato.com/files/119335d8-e1b6-4223-829c-518b3b971fc1/inline_image_preview.jpg);
+}
+
+#First h1{
+    color: #fff;
+}
+
+#Second h1{
+    color: #fff;
+} */
+
+/* #First{
+    padding: 20px;
+    background-image: linear-gradient(to right,#b92b27,#1565C0);
+}
+
+input{
+    width: 200px;
+    height: 30px;
+    margin: 100px;
+}
+
+input:focus {
+    outline-color: red;
+} */
+
+
+#First{
+    text-align: center;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+    padding: 13rem 0 5rem 0;
+    background-position: center;
+    background-size: cover;
+}
+
+
+#First h1{
+    font-size: 88px;
+    color: #212529;
+}
+
+#First h3{
+    font-size: 28px;
+    color: #212529;
+    margin-bottom: 60px;
+}
+
+#First a{
+    background-color: #1d809f;
+    padding: 20px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+#First a:hover{
+    background-color: #063d4e;
+}
